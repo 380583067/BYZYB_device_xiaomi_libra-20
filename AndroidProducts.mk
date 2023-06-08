@@ -13,9 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_libra.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_libra.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_libra-eng \
-    aosp_libra-user \
-    aosp_libra-userdebug
+    lineage_libra-eng \
+    lineage_libra-user \
+    lineage_libra-userdebug
