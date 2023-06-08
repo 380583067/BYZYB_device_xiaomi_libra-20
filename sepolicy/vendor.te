@@ -11,6 +11,7 @@ type deviceid_prop, property_type;
 
 # Kernel
 allow kernel { platform_app radio shell system_app untrusted_app }:process setsched;
+type sysfs_disk_stat, fs_type;
 
 # MMBN daemon
 type mmbn-daemon, domain;
