@@ -2,15 +2,25 @@
   {
     "repository": "android_kernel_xiaomi_libra",
     "target_path": "kernel/xiaomi/libra",
-    "revision":"master"
+    "revision":"wip"
   },
   {
     "repository": "android_vendor_xiaomi_libra",
     "target_path": "vendor/xiaomi/libra",
-    "revision":"lineage-16.0"
+    "revision":"lineage-20"
   },
   {
     "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
   }
+    {
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+  }
+    "revision":"lineage-20"
+    {
+    "repository": "android_device_qcom_sepolicy-legacy",
+    "target_path": "device_qcom_sepolicy-legacy",
+  }
+    "revision":"lineage-20"
 ]
